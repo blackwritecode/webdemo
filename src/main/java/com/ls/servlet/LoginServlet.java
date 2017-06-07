@@ -1,4 +1,4 @@
-package com.ls.service;
+package com.ls.servlet;
 
 import java.io.IOException;
 import java.io.UnsupportedEncodingException;
