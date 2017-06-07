@@ -108,7 +108,7 @@
     			<version>2.2</version>
     			<executions>
     				<execution>
-    					<!-- 在打包成功后使用jetty:run 来运行jetty 服务 -->
+    					<!-- 在打包成功后, 来运行 服务 -->
     					<phase>package</phase>
     					<goals>
     						<goal>run</goal>

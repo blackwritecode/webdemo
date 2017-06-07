@@ -1,8 +1,0 @@
-0:0:0:0:0:0:0:1 - - [26/May/2017:10:50:57 +0800] "GET /webdemo HTTP/1.1" 302 - http-bio-8080-exec-1 0
-0:0:0:0:0:0:0:1 - - [26/May/2017:10:50:57 +0800] "GET /webdemo/ HTTP/1.1" 200 562 http-bio-8080-exec-4 702
-0:0:0:0:0:0:0:1 - - [26/May/2017:10:50:57 +0800] "GET /favicon.ico HTTP/1.1" 404 - http-bio-8080-exec-5 0
-0:0:0:0:0:0:0:1 - - [26/May/2017:10:51:02 +0800] "POST /webdemo/login HTTP/1.1" 302 - http-bio-8080-exec-6 3
-0:0:0:0:0:0:0:1 - - [26/May/2017:10:51:02 +0800] "GET /webdemo/a.jsp HTTP/1.1" 200 267 http-bio-8080-exec-7 80
-0:0:0:0:0:0:0:1 - - [26/May/2017:10:52:18 +0800] "GET /webdemo/ HTTP/1.1" 200 572 http-bio-8080-exec-9 71
-0:0:0:0:0:0:0:1 - - [26/May/2017:10:52:32 +0800] "POST /webdemo/login?query=123 HTTP/1.1" 302 - http-bio-8080-exec-9 1
-0:0:0:0:0:0:0:1 - - [26/May/2017:10:52:32 +0800] "GET /webdemo/a.jsp HTTP/1.1" 200 267 http-bio-8080-exec-9 4
