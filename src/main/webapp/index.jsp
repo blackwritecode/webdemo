@@ -2,8 +2,6 @@
 <html>
 <body>
 	<h2>Hello World!</h2>
-	修改jsp
-	<a href="a.jsp">a</a>
 	<form action="login?query=123" method="post">
 		<table>
 			<thead>

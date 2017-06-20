@@ -20,6 +20,7 @@ public class LoginServlet extends BaseServlet {
 			request.setCharacterEncoding("utf-8");
 		} catch (UnsupportedEncodingException e1) {
 			e1.printStackTrace();
+			log.debug("数据编码不正确！");
 		}
 		String querystr = request.getQueryString();
 		log.info("url传参" + querystr);
