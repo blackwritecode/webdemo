@@ -8,8 +8,18 @@
   	<servlet-name>login</servlet-name>
   	<servlet-class>com.ls.servlet.LoginServlet</servlet-class>
   </servlet>
+  <servlet>
+  	<servlet-name>JsonServlet</servlet-name>
+  	<display-name>JsonServlet</display-name>
+  	<description></description>
+  	<servlet-class>com.ls.servlet.JsonServlet</servlet-class>
+  </servlet>
   <servlet-mapping>
   	<servlet-name>login</servlet-name>
   	<url-pattern>/</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>JsonServlet</servlet-name>
+  	<url-pattern>/JsonServlet</url-pattern>
   </servlet-mapping>
 </web-app>

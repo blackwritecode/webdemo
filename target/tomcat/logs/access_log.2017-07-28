@@ -1,0 +1,7 @@
+192.168.1.111 - - [28/Jul/2017:10:40:13 +0800] "GET /webdemo HTTP/1.1" 302 - http-bio-80-exec-1 0
+192.168.1.111 - - [28/Jul/2017:10:40:13 +0800] "GET /webdemo/ HTTP/1.1" 200 536 http-bio-80-exec-3 170
+192.168.1.111 - - [28/Jul/2017:10:40:14 +0800] "GET /favicon.ico HTTP/1.1" 404 - http-bio-80-exec-4 0
+192.168.1.111 - - [28/Jul/2017:11:11:13 +0800] "POST /webdemo/login?query=123 HTTP/1.1" 302 - http-bio-80-exec-6 236
+192.168.1.111 - - [28/Jul/2017:11:11:13 +0800] "GET /webdemo/error.jsp HTTP/1.1" 200 57 http-bio-80-exec-7 46
+192.168.1.111 - - [28/Jul/2017:11:11:19 +0800] "POST /webdemo/login?query=123 HTTP/1.1" 302 - http-bio-80-exec-8 1
+192.168.1.111 - - [28/Jul/2017:11:11:19 +0800] "GET /webdemo/error.jsp HTTP/1.1" 200 57 http-bio-80-exec-8 1

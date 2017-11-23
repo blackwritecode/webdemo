@@ -1,0 +1,5 @@
+项目名：webdemo
+说明：maven 构建的 web 项目，servlet 控制跳转；
+String.equals() 方法验证页面传参；
+response.sendRedirect() 控制返回页面；
+运行命令： tomcat7:run

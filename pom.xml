@@ -31,7 +31,7 @@
   <developers>
   	<developer>
   		<email>lisai212@sina.cn</email>
-  		<name>Lison</name>
+  		<name>Lisai</name>
   	</developer>
   </developers>
   <!-- 许可 -->
@@ -106,6 +106,9 @@
     			<groupId>org.apache.tomcat.maven</groupId>
     			<artifactId>tomcat7-maven-plugin</artifactId>
     			<version>2.2</version>
+    			<configuration>
+    			  <port>80</port>
+    			</configuration>
     			<executions>
     				<execution>
     					<!-- 在打包成功后, 来运行 服务 -->
